@@ -14,7 +14,7 @@ let lives = 20;
 let maxHighScore = 0;
 let resetButton = document.querySelector("#reset-game");
 
-/* the function that check if number is low or high then secret number */
+/* the function that check if number is low or high than secret number */
 function checkSecretNumber(comparisonArgument) {
   if (comparisonArgument === "low") {
     if (lives > 1) {
@@ -40,7 +40,7 @@ function checkSecretNumber(comparisonArgument) {
 }
 /* the function that check the logic of the game */
 function checkLogic(inputNumber) {
-  /* inputnumber is equal with the secret number */
+  /* input number is equal with the secret number */
   if (inputNumber === secretNumber) {
     unknownNumber.textContent = secretNumber;
     message.textContent = "Correct Number !";
