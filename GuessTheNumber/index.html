@@ -1,0 +1,38 @@
+<!-- Copyright 2021 Dinu Ion-Irinel -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://fonts.cdnfonts.com/css/arcade-classic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guessing game</title>
+  </head>
+  <body>
+    <div class="top-div">
+      <button id="reset-game">Reset Game</button>
+      <h2 class="info-header">(Between 1 and 20)</h2>
+    </div>
+    <div class="middle-div">
+      <h1 class="header-title">Guess the number</h1>
+      <div class="unknown-number">?</div>
+    </div>
+    <div class="bottom-div">
+      <div class="left-div">
+        <input id="input-area" type="text" placeholder="Number" /><br />
+        <button id="check-btn">Guess</button>
+      </div>
+      <div class="right-div">
+        <h2 id="info">Starting Guessing</h2>
+        <br />
+        <h2 id="lives">Lives: 20</h2>
+        <br />
+        <h2 id="high-score">Best Score: 0</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
